@@ -5,6 +5,7 @@ scripts for organization media-archive
 
 start thumbnails maker:
 > ./thumbnails.sh "$from_dir" "$to_dir" > ./thumbnails.`date +"%Y%m%d%H%M%S"`.log 2>&1
+
 where $from_dir is path to videos and $to_dir is path for thumbnails
 
 start media-archive:
